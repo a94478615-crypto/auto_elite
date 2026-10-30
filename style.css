@@ -1,5 +1,5 @@
 :root {
-  --car-photo: url('--car-photo: url('./image/images.webp');');
+  --car-photo: url('image/car_only.webp');
   --bg: #07090b;
   --panel: #101316;
   --line: #2a3035;
