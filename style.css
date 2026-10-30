@@ -1,5 +1,5 @@
 :root {
-  --car-photo: url('https://images.unsplash.com/photo-1542362567-b07e54358753?auto=format&fit=crop&w=2000&q=85');
+  --car-photo: url('--car-photo: url('./image/images.webp');');
   --bg: #07090b;
   --panel: #101316;
   --line: #2a3035;
