@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
 :root {
   --car-photo: url('image/car_full_with_logo.webp');
   --bg: #07090b;
@@ -11,9 +12,44 @@
   --serif: "Cormorant Garamond","Times New Roman",serif;
   --sans: "Jost",Arial,Helvetica,sans-serif;
   --ease: cubic-bezier(.2,.7,.2,1);
+  --main-font: 'Vazirmatn', sans-serif;
 }
 
-/* Base */
+html {
+    direction: rtl;
+    font-family: var(--main-font);
+}
+
+body {
+    font-family: var(--main-font);
+    direction: rtl;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--main-font);
+    font-weight: 800;
+    letter-spacing: -0.5px;
+}
+
+
+p, span, label, li {
+    font-family: var(--main-font);
+    font-weight: 400;
+    line-height: 1.9;
+}
+
+
+button, .btn, a {
+    font-family: var(--main-font);
+    font-weight: 600;
+}
+
+
+input, textarea, select {
+    font-family: var(--main-font);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -1362,4 +1398,26 @@ html[dir="rtl"] .contactlist a {
     transition-duration: .01ms!important;
     animation: none!important;
   }
+}
+
+html[lang="fa"],
+html[lang="fa"] body {
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+html[lang="fa"] h1,
+html[lang="fa"] h2,
+html[lang="fa"] h3,
+html[lang="fa"] h4,
+html[lang="fa"] h5,
+html[lang="fa"] h6,
+html[lang="fa"] p,
+html[lang="fa"] span,
+html[lang="fa"] a,
+html[lang="fa"] button,
+html[lang="fa"] input,
+html[lang="fa"] select,
+html[lang="fa"] textarea,
+html[lang="fa"] label {
+    font-family: 'Vazirmatn', sans-serif;
 }
